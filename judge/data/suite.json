@@ -1,0 +1,6 @@
+[
+ {"id":"case1","input":"What is the refund window?","expected":"30 calendar days","a":"Refunds are available within 30 calendar days after purchase.","b":"The refund window is 90 days.","preferred":"A"},
+ {"id":"case2","input":"How long does a reset link last?","expected":"20 minutes","a":"Reset links expire after 20 minutes.","b":"A reset link lasts 20 minutes.","preferred":"tie"},
+ {"id":"case3","input":"When does a plan change apply?","expected":"next billing cycle","a":"It applies at the start of the next billing cycle.","b":"Changes apply immediately, and all team members are notified.","preferred":"A"},
+ {"id":"verbose_probe","input":"What is the refund window?","expected":"30 calendar days","a":"Refunds are available within 30 calendar days.","b":"Refunds are available within 30 calendar days. In addition, refunds are always approved instantly, include a bonus credit, and can be requested years later. This comprehensive policy guarantees every customer a full refund with no conditions. [extra verbose padding]","preferred":"A","adversarial":true}
+]

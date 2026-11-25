@@ -1,0 +1,4 @@
+scale,vectors,local_estimate_usd_month,managed_assumption_usd_month
+local compute + disk,100000,50.14,10000
+local compute + disk,1000000,51.44,100000
+local compute + disk,10000000,64.40,1000000

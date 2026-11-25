@@ -1,0 +1,54 @@
+{
+  "n": 4,
+  "pass_rate": 0.75,
+  "win_rate": {
+    "A": 0.5,
+    "B": 0.0,
+    "tie": 0.5
+  },
+  "position_flip_rate": 0.0,
+  "human_gold_agreement": 0.75,
+  "cohen_kappa": 0.5,
+  "test_retest_consistency": 1.0,
+  "adversarial": [
+    {
+      "id": "verbose_probe",
+      "winner": "tie",
+      "order_flip": false,
+      "preferred": "A",
+      "adversarial": true,
+      "fooled": false
+    }
+  ],
+  "cases": [
+    {
+      "id": "case1",
+      "winner": "A",
+      "order_flip": false,
+      "preferred": "A",
+      "adversarial": false
+    },
+    {
+      "id": "case2",
+      "winner": "tie",
+      "order_flip": false,
+      "preferred": "tie",
+      "adversarial": false
+    },
+    {
+      "id": "case3",
+      "winner": "A",
+      "order_flip": false,
+      "preferred": "A",
+      "adversarial": false
+    },
+    {
+      "id": "verbose_probe",
+      "winner": "tie",
+      "order_flip": false,
+      "preferred": "A",
+      "adversarial": true
+    }
+  ],
+  "caveat": "Deterministic demo mode is pipeline evidence only, not a real LLM judge validation."
+}

@@ -1,0 +1,17 @@
+[
+ {"id":"q01","question":"How long is the refund window?","relevant_text":"Refunds are available within 30 calendar days"},
+ {"id":"q02","question":"What do I need to request a refund?","relevant_text":"order number and proof of payment"},
+ {"id":"q03","question":"Where does the refund go?","relevant_text":"original payment method"},
+ {"id":"q04","question":"How long do approved refunds take?","relevant_text":"five to seven business days"},
+ {"id":"q05","question":"When is standard support open?","relevant_text":"Monday through Friday, 9:00 AM to 5:00 PM"},
+ {"id":"q06","question":"How do I report an urgent security incident?","relevant_text":"incident form"},
+ {"id":"q07","question":"Is there a guaranteed after-hours support response?","relevant_text":"does not promise a response time"},
+ {"id":"q08","question":"How long is personal data retained after closure?","relevant_text":"retained for 90 days"},
+ {"id":"q09","question":"How can I request data deletion?","relevant_text":"request deletion by contacting privacy@example.test"},
+ {"id":"q10","question":"When do backups expire after account closure?","relevant_text":"Backups expire within 30 additional days"},
+ {"id":"q11","question":"How many members are included in Basic?","relevant_text":"five team members"},
+ {"id":"q12","question":"What storage is included in Pro?","relevant_text":"1 TB of storage"},
+ {"id":"q13","question":"When does a plan change take effect?","relevant_text":"start of the next billing cycle"},
+ {"id":"q14","question":"How do I reset my password?","relevant_text":"Forgot password link"},
+ {"id":"q15","question":"How long is the reset link valid?","relevant_text":"expire after 20 minutes"}
+]

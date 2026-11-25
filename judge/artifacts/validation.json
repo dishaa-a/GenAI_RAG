@@ -1,0 +1,16 @@
+{
+  "human_gold_agreement": 0.75,
+  "cohen_kappa": 0.5,
+  "test_retest_consistency": 1.0,
+  "adversarial": [
+    {
+      "id": "verbose_probe",
+      "winner": "tie",
+      "order_flip": false,
+      "preferred": "A",
+      "adversarial": true,
+      "fooled": false
+    }
+  ],
+  "caveat": "Deterministic demo mode is pipeline evidence only, not a real LLM judge validation."
+}
